@@ -95,7 +95,7 @@ exports.open = function (options, callback, scope) {alert("opean");
     options = this.mergeWithDefaults(options || {});
 
     var onAvailable = function (isPossible, withScheme) {
-
+            alert("isPossible: "+isPossible+" withScheme: "+withScheme);
         if (!isPossible)
             return fn();
 
