@@ -110,8 +110,9 @@ exports.open = function (options, callback, scope) {alert("opean");
 
         exec(fn, null, 'EmailComposer', 'open', [options]);
     };
-
+    alert("onAvailable: "+onAvailable);
     exec(onAvailable, null, 'EmailComposer', 'isAvailable', [options.app]);
+                                                    alert("onAvailable: "+onAvailable);
 };
 
 /**
