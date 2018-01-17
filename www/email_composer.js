@@ -88,7 +88,7 @@ exports.isAvailable = function (app, callback, scope) {
  * @param {Object?} scope
  *      The scope of the callback
  */
-exports.open = function (options, callback, scope) {
+exports.open = function (options, callback, scope) {alert("opean");
     var fn = this.createCallbackFn(callback, scope),
         me = this;
 
